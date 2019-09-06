@@ -11,6 +11,8 @@ sp3ber microservices repository
 
 [Docker networks. Docker-compose](#docker_4)
 
+[Устройство Gitlab CI](#gitlab_ci)
+
 <a name="#docker_2"><h4>Технологии контенеризации. Введение в Docker</h4></a>
 
 <h5>Что сделано:</h3>
@@ -44,3 +46,12 @@ sp3ber microservices repository
 <pre>
     Дефолтная схема формирования имени - project_service_index (где project и service в нашем случае просто подкаталоги, а index - номер инстанса - т.к. мы не скейлим ничего, то всех инстансов по одному), но имя можно задать самому через поле container_name
 </pre>
+
+<a name="#gitlab_ci"><h4>Устройство Gitlab CI</h4></a>
+
+<h5>Что сделано:</h3>
+- Подготовил инсталляцию Gitlab CI
+- Подготовил репозиторий с кодом приложения
+- Описал для приложения этапы пайплайна
+- Определил окружения
+- Добавил интеграцию с gitlab в слаке (ссылка на канал https://devops-team-otus.slack.com/messages/CKE4BLG49)
