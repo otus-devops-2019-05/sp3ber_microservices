@@ -13,6 +13,8 @@ sp3ber microservices repository
 
 [Устройство Gitlab CI](#gitlab_ci)
 
+[Системы мониторинга](#monitoring_1)
+
 <a name="#docker_2"><h4>Технологии контенеризации. Введение в Docker</h4></a>
 
 <h5>Что сделано:</h3>
@@ -55,3 +57,11 @@ sp3ber microservices repository
 - Описал для приложения этапы пайплайна
 - Определил окружения
 - Добавил интеграцию с gitlab в слаке (ссылка на канал https://devops-team-otus.slack.com/messages/CKE4BLG49)
+
+<a name="#monitoring_1"><h4>Системы мониторинга</h4></a>
+
+<h5>Что сделано:</h3>
+- Познакомился с Prometheus: запуск, конфигурация, знакомство с Web UI
+- Добавил мониторинг состояния микросервисов
+- Добавил сбор метрик хоста с использованием экспортера (node-exporter)
+- Опубликова образы микросервисов и прометея - https://cloud.docker.com/u/sp3ber/repository/list
