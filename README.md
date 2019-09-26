@@ -85,3 +85,4 @@ sp3ber microservices repository
 - настроен сбор структурированных и неструктурированных логов из сервисов ui и post
 - добавлена Kibana для визуализации логов
 - добавлена распределенная трасировка через zipkin
+- обнаружил бутылочное горлышко при отдаче постов пользователям (https://github.com/Artemmkin/bugged-code/blob/master/post-py/post_app.py#L167) - ненужный time.sleep(3) в три секунды 
